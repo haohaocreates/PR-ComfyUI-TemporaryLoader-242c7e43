@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-temporaryloader"
+description = "This is a custom node of ComfyUI that downloads and loads models from the input URL. The model is temporarily downloaded into memory and not saved to storage.\nThis could be useful when trying out models or when using various models on machines with limited storage. Since the model is downloaded into memory, expect higher memory usage than usual."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["requests"]
+
+[project.urls]
+Repository = "https://github.com/pkpkTech/ComfyUI-TemporaryLoader"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-TemporaryLoader"
+Icon = ""
